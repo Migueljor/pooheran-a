@@ -1,0 +1,14 @@
+public class TestarAnimais {
+    public static void main(String[] args) {
+        Mamifero camelo = new Mamifero("leão", 210, 4, "laranja", "Terra");
+        Peixe espadarte = new Peixe("espadarte", 200, 0, "azul e branco", "Mar e oceano", 1.5f, "bico grande");
+        Mamifero girafa = new Mamifero("girafa africana", 600, 4, "laranja e vermelho", "Terra", 0.5f, "plantas");
+
+
+        camelo.dados();
+        System.out.println();
+        espadarte.dadosPeixe();
+        System.out.println();
+        girafa.dadosMamifero();
+    }
+}
